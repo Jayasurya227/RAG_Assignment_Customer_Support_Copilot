@@ -1,0 +1,9 @@
+Metric,V1 (Basic RAG),V2 Single-Index,V2 Multi-Index
+Precision@5,0.3000,0.3000,0.2875
+Recall@5,0.9143,0.8938,0.8812
+Multi-Source Coverage,0.9667,0.9125,0.8875
+Refusal Accuracy (%),100.0%,100.0%,100.0%
+False Refusals (count),1,0,0
+Routing Accuracy (%),n/a (no router),n/a (no router),95.0%
+Faithfulness,0.9322,0.7240,0.7240
+Answer Relevance,0.8850,0.6800,0.6800

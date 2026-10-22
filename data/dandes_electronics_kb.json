@@ -1,0 +1,707 @@
+{
+  "dataset": "Dandes Electronics Support Knowledge Base",
+  "version": "1.0",
+  "note": "Training dataset for a fictional store, made for the Course 02 assignment. Store policies, tickets and product issues are made up for learning. They do not describe the real products, brands or their manufacturers.",
+  "documents": [
+    {
+      "id": "FAQ-001",
+      "doc_type": "product_faq",
+      "title": "Does the iPhone 16 come with a charger in the box?",
+      "content": "No. The Apple iPhone 16 box contains the phone and a USB-C to USB-C cable. A power adapter is not included. Customers can buy the Anker 20W USB-C Charger or any USB-C Power Delivery charger of 20W or more for fast charging.",
+      "metadata": {
+        "product": "iPhone 16",
+        "brand": "Apple",
+        "category": "box_contents",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-002",
+      "doc_type": "product_faq",
+      "title": "Is the Samsung Galaxy S25 sold by Dandes Electronics the India version?",
+      "content": "Yes. Every Samsung Galaxy S25 sold by Dandes Electronics is the official India version. It comes with a 1-year manufacturer warranty that can be claimed at any authorised Samsung service centre in India. Keep the Dandes Electronics invoice, as it is needed for warranty claims.",
+      "metadata": {
+        "product": "Galaxy S25",
+        "brand": "Samsung",
+        "category": "warranty",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-003",
+      "doc_type": "product_faq",
+      "title": "What EMI options are available for the OnePlus 13?",
+      "content": "The OnePlus 13 can be bought on No-Cost EMI for 3 or 6 months with credit cards from major banks. Standard EMI is available for 9 and 12 months with interest charged by the bank. Debit card EMI is available for select banks. EMI options are shown on the payment page at checkout.",
+      "metadata": {
+        "product": "OnePlus 13",
+        "brand": "OnePlus",
+        "category": "payments",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-004",
+      "doc_type": "product_faq",
+      "title": "Can I exchange my old phone when buying a Google Pixel 9?",
+      "content": "Yes. Dandes Electronics offers an exchange programme on the Google Pixel 9. Enter the old phone's brand, model and condition at checkout to see the exchange value. The old phone is collected at the time of delivery. If the old phone's condition does not match what was entered, the exchange value may be reduced or the exchange may be cancelled.",
+      "metadata": {
+        "product": "Pixel 9",
+        "brand": "Google",
+        "category": "exchange",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-005",
+      "doc_type": "product_faq",
+      "title": "Does the MacBook Air M3 have a cooling fan?",
+      "content": "No. The Apple MacBook Air M3 has a fanless design, so it runs silently. During long heavy tasks such as video export, it may slow down slightly to manage heat. This is normal behaviour and not a defect.",
+      "metadata": {
+        "product": "MacBook Air M3",
+        "brand": "Apple",
+        "category": "specifications",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-006",
+      "doc_type": "product_faq",
+      "title": "Does the Dell XPS 13 come with Windows and Microsoft Office?",
+      "content": "The Dell XPS 13 units sold by Dandes Electronics come with Windows 11 Home pre-installed and activated. Microsoft Office is not included unless the customer buys the laptop with the Office bundle offer.",
+      "metadata": {
+        "product": "XPS 13",
+        "brand": "Dell",
+        "category": "software",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-007",
+      "doc_type": "product_faq",
+      "title": "Does Dandes Electronics help set up a new HP Pavilion 15 laptop?",
+      "content": "Yes. Customers who buy the HP Pavilion 15 get a free remote setup session. A Dandes Electronics technician helps with Windows setup, account creation, driver updates and data transfer over a video call. The session can be booked within 15 days of delivery from the Orders page.",
+      "metadata": {
+        "product": "Pavilion 15",
+        "brand": "HP",
+        "category": "setup",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-008",
+      "doc_type": "product_faq",
+      "title": "What warranty comes with the Lenovo ThinkPad E14?",
+      "content": "The Lenovo ThinkPad E14 sold by Dandes Electronics comes with a 1-year Lenovo onsite warranty. A Lenovo engineer visits the customer's address for hardware repairs. Warranty is registered using the laptop's serial number and the Dandes Electronics invoice.",
+      "metadata": {
+        "product": "ThinkPad E14",
+        "brand": "Lenovo",
+        "category": "warranty",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-009",
+      "doc_type": "product_faq",
+      "title": "Do AirPods Pro 2 work with Android phones?",
+      "content": "Yes. Apple AirPods Pro 2 connect to Android phones as normal Bluetooth earbuds for music and calls. Some features, such as automatic switching between Apple devices and setup through iOS, work only with Apple devices.",
+      "metadata": {
+        "product": "AirPods Pro 2",
+        "brand": "Apple",
+        "category": "compatibility",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-010",
+      "doc_type": "product_faq",
+      "title": "Can the Sony WH-1000XM5 connect to two devices at once?",
+      "content": "Yes. The Sony WH-1000XM5 headphones support multipoint connection. They can stay connected to two devices, for example a laptop and a phone, at the same time. Multipoint is turned on from the Sony Headphones Connect app.",
+      "metadata": {
+        "product": "WH-1000XM5",
+        "brand": "Sony",
+        "category": "compatibility",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-011",
+      "doc_type": "product_faq",
+      "title": "Do Galaxy Buds3 Pro work with iPhones?",
+      "content": "Yes. Samsung Galaxy Buds3 Pro work with iPhones as normal Bluetooth earbuds. Some features, such as auto switch between Samsung devices and full app controls, work best with Samsung Galaxy phones.",
+      "metadata": {
+        "product": "Galaxy Buds3 Pro",
+        "brand": "Samsung",
+        "category": "compatibility",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "FAQ-012",
+      "doc_type": "product_faq",
+      "title": "Will the Anker 20W charger fast-charge an iPhone 16?",
+      "content": "Yes. The Anker 20W USB-C Charger supports USB-C Power Delivery and fast-charges the iPhone 16 when used with a USB-C to USB-C cable. It can also charge Android phones, earbuds and tablets that support USB-C charging.",
+      "metadata": {
+        "product": "Anker 20W Charger",
+        "brand": "Anker",
+        "category": "compatibility",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "RR-001",
+      "doc_type": "return_policy",
+      "title": "Return window for all products",
+      "content": "Most products bought from Dandes Electronics can be returned within 10 days of delivery. Mobile phones are the exception: phones are eligible for replacement only, within 7 days of delivery, and only if they are defective or damaged. After the return window ends, customers must use the manufacturer warranty. This policy is effective from 1 July 2026 and replaces all earlier return windows.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "returns",
+        "policy_code": "RR-001",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "RR-002",
+      "doc_type": "return_policy",
+      "title": "Returning opened products",
+      "content": "Opened laptops and accessories can be returned within 10 days of delivery if they are in good condition, have no physical damage, and are returned with the original box, all accessories, manuals and the invoice. Opened products with missing accessories or physical damage will not be accepted. Opened mobile phones cannot be returned for change of mind.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "returns",
+        "policy_code": "RR-002",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "RR-003",
+      "doc_type": "return_policy",
+      "title": "Damaged or defective products",
+      "content": "If a product arrives damaged or defective, the customer must report it within 48 hours of delivery using the Report a Problem option on the Orders page. Photos of the product and box, and an unboxing video if available, are required. After a pickup and quality check, the customer can choose a replacement or a full refund. For mobile phones, a refund is given only if a replacement unit is not available.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "returns",
+        "policy_code": "RR-003",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "RR-004",
+      "doc_type": "return_policy",
+      "title": "Refund timelines by payment method",
+      "content": "Refunds start after the returned product passes the quality check. UPI and wallet refunds take 1 to 3 business days. Credit and debit card refunds take 5 to 7 business days. Net banking refunds take 5 to 7 business days. Cash on Delivery orders are refunded to the customer's bank account within 5 to 7 business days after the customer adds bank details on the Orders page. EMI orders are refunded to the card, and the bank closes the EMI plan.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "refunds",
+        "policy_code": "RR-004",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "RR-005",
+      "doc_type": "return_policy",
+      "title": "Replacement vs refund rules",
+      "content": "A replacement is given for the same model and colour. If the same model is out of stock, the customer can choose a refund or a different colour of the same model. Price differences are not adjusted. A product can be replaced only once per order. If the replacement unit is also defective, the customer gets a full refund.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "returns",
+        "policy_code": "RR-005",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "SH-001",
+      "doc_type": "shipping_policy",
+      "title": "Standard delivery times and charges",
+      "content": "Standard delivery takes 2 to 4 business days in metro cities and 3 to 6 business days in other serviceable pincodes. Delivery is free for orders of Rs 499 and above. Orders below Rs 499 have a delivery charge of Rs 49.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "delivery",
+        "policy_code": "SH-001",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "SH-002",
+      "doc_type": "shipping_policy",
+      "title": "Delivery to remote pincodes",
+      "content": "Remote pincodes include parts of the North-East states, Jammu and Kashmir, Ladakh, the Andaman and Nicobar Islands, Lakshadweep and some hill areas. Delivery to remote pincodes takes 5 to 9 business days. The normal delivery charges apply, so orders of Rs 499 and above are still free. Express delivery is not available for remote pincodes.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "delivery",
+        "policy_code": "SH-002",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "SH-003",
+      "doc_type": "shipping_policy",
+      "title": "Express delivery",
+      "content": "Express delivery is available in select metro cities: Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai and Pune. Orders placed before 2 PM are delivered the next day. Express delivery costs Rs 149 per order, even for orders above Rs 499. Express delivery is not available for Cash on Delivery orders.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "delivery",
+        "policy_code": "SH-003",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "SH-004",
+      "doc_type": "shipping_policy",
+      "title": "Cash on Delivery limits",
+      "content": "Cash on Delivery is available for orders up to Rs 50,000. Orders above Rs 50,000 must be paid online. Cash on Delivery is not available for remote pincodes or for express delivery.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "payments",
+        "policy_code": "SH-004",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "SH-005",
+      "doc_type": "shipping_policy",
+      "title": "Failed delivery attempts",
+      "content": "The courier makes up to 3 delivery attempts. If all 3 attempts fail, or the customer refuses the package, the order is returned to Dandes Electronics. For prepaid orders, a full refund is issued once the package reaches the warehouse. Cash on Delivery orders are simply cancelled.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "delivery",
+        "policy_code": "SH-005",
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "OG-001",
+      "doc_type": "order_guide",
+      "title": "How to cancel an order",
+      "content": "An order can be cancelled from the Orders page any time before it is shipped. Prepaid orders are refunded as per policy RR-004. Once an order is shipped, it cannot be cancelled. The customer can refuse the delivery instead, and the refund is processed as per policy SH-005.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "order_changes",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "OG-002",
+      "doc_type": "order_guide",
+      "title": "How to change the delivery address",
+      "content": "The delivery address can be changed from the Orders page only before the order is shipped. After shipping, the address cannot be changed by Dandes Electronics or by the support team. The customer has two options: ask the courier to reschedule delivery to the same address, or refuse the delivery and place a new order with the correct address. Refusal refunds follow policy SH-005.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "order_changes",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "OG-003",
+      "doc_type": "order_guide",
+      "title": "How to track an order",
+      "content": "Customers can track an order from the Orders page or with the tracking link sent by SMS and email after shipping. Tracking updates can take up to 24 hours to appear after the order is shipped. If tracking has not updated for more than 3 business days, the support team should raise a courier escalation.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "tracking",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "OG-004",
+      "doc_type": "order_guide",
+      "title": "Payment failed but money deducted",
+      "content": "If a payment fails but money is deducted from the customer's account, the bank usually reverses it within 5 to 7 business days. No order is created for a failed payment. The support team should check the payment status and share the transaction reference with the customer if the reversal takes longer.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "payments",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "OG-005",
+      "doc_type": "order_guide",
+      "title": "How to report a damaged, defective or wrong item",
+      "content": "To report a damaged, defective or wrong item, the customer opens the order on the Orders page and selects Report a Problem within 48 hours of delivery. The customer uploads photos of the product, the box and the shipping label, and an unboxing video if available. A pickup is scheduled within 2 business days. After the quality check, a replacement or refund is processed as per policies RR-003 and RR-005.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "returns",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "OG-006",
+      "doc_type": "order_guide",
+      "title": "How to raise a warranty claim",
+      "content": "After the return window ends, defects are covered by the manufacturer warranty. The customer can download the invoice from the Orders page and visit the brand's authorised service centre, or book an onsite visit if the product has onsite warranty, such as the Lenovo ThinkPad E14. Dandes Electronics does not repair products directly.",
+      "metadata": {
+        "product": "all",
+        "brand": "all",
+        "category": "warranty",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-001",
+      "doc_type": "known_issue",
+      "title": "Galaxy Buds3 Pro: one earbud not connecting",
+      "content": "Customers report that one Galaxy Buds3 Pro earbud, usually the left one, does not connect after pairing with a new phone. Fix: put both earbuds in the case, close the lid for 10 seconds, then reset the earbuds from the Galaxy Wearable app or by holding both touchpads for 7 seconds. Pair again as a new device. If the issue continues after reset, treat it as defective under RR-003 within 48 hours of delivery, or as a warranty claim after that.",
+      "metadata": {
+        "product": "Galaxy Buds3 Pro",
+        "brand": "Samsung",
+        "category": "connectivity",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-002",
+      "doc_type": "known_issue",
+      "title": "AirPods Pro 2: one earbud not charging in the case",
+      "content": "Some customers report that one AirPods Pro 2 earbud does not charge in the case. The usual cause is dirt on the charging contacts. Fix: clean the earbud and case contacts gently with a dry cotton swab and check that the earbud sits fully in the case. If it still does not charge, raise an Apple warranty claim.",
+      "metadata": {
+        "product": "AirPods Pro 2",
+        "brand": "Apple",
+        "category": "charging",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-003",
+      "doc_type": "known_issue",
+      "title": "iPhone 16: eSIM transfer stuck",
+      "content": "Customers moving from a physical SIM to eSIM on the iPhone 16 sometimes see the transfer stuck on Activating. This is handled by the mobile network, not by Dandes Electronics. Fix: connect to Wi-Fi, restart the phone, and contact the mobile network's customer care for a new eSIM activation code.",
+      "metadata": {
+        "product": "iPhone 16",
+        "brand": "Apple",
+        "category": "setup",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-004",
+      "doc_type": "known_issue",
+      "title": "MacBook Air M3: not charging with a low-wattage charger",
+      "content": "Customers using a phone charger with the MacBook Air M3 report that it charges very slowly or shows Not Charging. Fix: use the Apple charger supplied in the box or a USB-C Power Delivery charger of 30W or more. A 20W phone charger, such as the Anker 20W USB-C Charger, is not enough to charge the laptop while it is in use.",
+      "metadata": {
+        "product": "MacBook Air M3",
+        "brand": "Apple",
+        "category": "charging",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-005",
+      "doc_type": "known_issue",
+      "title": "Sony WH-1000XM5: audio drops with two devices connected",
+      "content": "Some customers report short audio drops when the Sony WH-1000XM5 is connected to two devices with multipoint. Fix: update the headphones' firmware from the Sony Headphones Connect app, and turn off multipoint if the customer only uses one device.",
+      "metadata": {
+        "product": "WH-1000XM5",
+        "brand": "Sony",
+        "category": "connectivity",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-006",
+      "doc_type": "known_issue",
+      "title": "Dell XPS 13: Wi-Fi disconnects after sleep",
+      "content": "Some Dell XPS 13 customers report that Wi-Fi does not reconnect after the laptop wakes from sleep. Fix: install the latest Wi-Fi driver and BIOS update using Dell SupportAssist, then restart. If the problem continues, raise a Dell warranty claim.",
+      "metadata": {
+        "product": "XPS 13",
+        "brand": "Dell",
+        "category": "connectivity",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-007",
+      "doc_type": "known_issue",
+      "title": "Logitech MX Master 3S: cursor lag on Bluetooth",
+      "content": "Customers using the Logitech MX Master 3S over Bluetooth on a laptop sometimes see cursor lag. Fix: use the Logi Bolt USB receiver included in the box instead of Bluetooth, and keep the receiver away from USB 3.0 hubs.",
+      "metadata": {
+        "product": "MX Master 3S",
+        "brand": "Logitech",
+        "category": "connectivity",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "KI-008",
+      "doc_type": "known_issue",
+      "title": "OnePlus 13: exchange value reduced at pickup",
+      "content": "When OnePlus 13 buyers exchange an old phone, the exchange value is sometimes reduced at the doorstep. The usual cause is a screen crack, missing charger or wrong condition entered at checkout. Fix: ask customers to enter the old phone's condition correctly. If the customer does not accept the new value, the exchange is cancelled and the customer pays the full price, as per the exchange FAQ.",
+      "metadata": {
+        "product": "OnePlus 13",
+        "brand": "OnePlus",
+        "category": "exchange",
+        "policy_code": null,
+        "date": "2026-07-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "TCK-1001",
+      "doc_type": "resolved_ticket",
+      "title": "Left earbud of Galaxy Buds3 Pro not connecting",
+      "content": "Customer issue: After switching to a new phone, the left Galaxy Buds3 Pro earbud did not connect. Root cause: Earbuds were still paired with the old phone. Resolution: Guided the customer to reset the earbuds in the case and pair again as a new device, as per KI-001. Both earbuds worked after the reset. Status: Resolved.",
+      "metadata": {
+        "product": "Galaxy Buds3 Pro",
+        "brand": "Samsung",
+        "category": "connectivity",
+        "policy_code": null,
+        "date": "2026-08-04",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "TCK-1002",
+      "doc_type": "resolved_ticket",
+      "title": "iPhone 16 arrived with a cracked screen, customer wants refund",
+      "content": "Customer issue: iPhone 16 delivered with a cracked screen. Customer did not want a replacement and asked for a refund. Root cause: Transit damage. Resolution: Customer reported it within 48 hours with photos and an unboxing video. Pickup was done and the quality check confirmed the damage. As per RR-003, phones get a replacement first. A replacement unit was not available in the same colour, so a full refund was issued to the credit card as per RR-004. Status: Resolved.",
+      "metadata": {
+        "product": "iPhone 16",
+        "brand": "Apple",
+        "category": "returns",
+        "policy_code": null,
+        "date": "2026-08-11",
+        "related_policy": "RR-003"
+      }
+    },
+    {
+      "id": "TCK-1003",
+      "doc_type": "resolved_ticket",
+      "title": "Customer wants to return opened laptop after a week",
+      "content": "Customer issue: Customer opened an HP Pavilion 15 and wanted to return it after using it for a week. Resolution: Informed the customer that laptops can be returned within 7 days of delivery. The request was on day 6, so the return was approved. Status: Resolved.",
+      "metadata": {
+        "product": "Pavilion 15",
+        "brand": "HP",
+        "category": "returns",
+        "policy_code": null,
+        "date": "2025-09-18",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "TCK-1004",
+      "doc_type": "resolved_ticket",
+      "title": "Change address after order shipped",
+      "content": "Customer issue: Customer moved to a new flat and asked to change the delivery address for a Sony WH-1000XM5 order that was already shipped. Resolution: Explained that the address cannot be changed after shipping, as per OG-002. Customer chose to refuse the delivery and placed a new order with the new address. Refund for the first order was issued after the package reached the warehouse, as per SH-005. Status: Resolved.",
+      "metadata": {
+        "product": "WH-1000XM5",
+        "brand": "Sony",
+        "category": "order_changes",
+        "policy_code": null,
+        "date": "2026-08-20",
+        "related_policy": "SH-005"
+      }
+    },
+    {
+      "id": "TCK-1005",
+      "doc_type": "resolved_ticket",
+      "title": "Delivery to Port Blair taking too long",
+      "content": "Customer issue: Customer in Port Blair complained that a Logitech MX Master 3S order had not arrived after 5 days. Root cause: Port Blair is a remote pincode. Resolution: Explained that remote pincodes take 5 to 9 business days as per SH-002. The order was delivered on day 7. Status: Resolved.",
+      "metadata": {
+        "product": "MX Master 3S",
+        "brand": "Logitech",
+        "category": "delivery",
+        "policy_code": null,
+        "date": "2026-08-22",
+        "related_policy": "SH-002"
+      }
+    },
+    {
+      "id": "TCK-1006",
+      "doc_type": "resolved_ticket",
+      "title": "COD refund not received",
+      "content": "Customer issue: Customer returned an Anker 20W USB-C Charger bought with Cash on Delivery but had not received the refund. Root cause: Bank details were not added on the Orders page. Resolution: Asked the customer to add bank details. Refund was credited in 5 business days, as per RR-004. Status: Resolved.",
+      "metadata": {
+        "product": "Anker 20W Charger",
+        "brand": "Anker",
+        "category": "refunds",
+        "policy_code": null,
+        "date": "2026-08-25",
+        "related_policy": "RR-004"
+      }
+    },
+    {
+      "id": "TCK-1007",
+      "doc_type": "resolved_ticket",
+      "title": "Wrong colour MacBook Air M3 delivered",
+      "content": "Customer issue: Customer ordered a Midnight MacBook Air M3 but received a Silver one. Resolution: Customer reported it within 48 hours through Report a Problem, as per OG-005. The Midnight colour was in stock, so a replacement was sent after pickup, as per RR-005. Status: Resolved.",
+      "metadata": {
+        "product": "MacBook Air M3",
+        "brand": "Apple",
+        "category": "returns",
+        "policy_code": null,
+        "date": "2026-08-27",
+        "related_policy": "RR-005"
+      }
+    },
+    {
+      "id": "TCK-1008",
+      "doc_type": "resolved_ticket",
+      "title": "MacBook Air M3 not charging",
+      "content": "Customer issue: MacBook Air M3 showed Not Charging. Root cause: Customer was using a 20W phone charger. Resolution: Advised using the original Apple charger or a 30W or higher USB-C PD charger, as per KI-004. Laptop charged normally. Status: Resolved.",
+      "metadata": {
+        "product": "MacBook Air M3",
+        "brand": "Apple",
+        "category": "charging",
+        "policy_code": null,
+        "date": "2026-09-01",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "TCK-1009",
+      "doc_type": "resolved_ticket",
+      "title": "Dell XPS 13 Wi-Fi drops after sleep",
+      "content": "Customer issue: Wi-Fi did not reconnect after the Dell XPS 13 woke from sleep. Resolution: Guided the customer to update the Wi-Fi driver and BIOS through Dell SupportAssist, as per KI-006. Issue fixed after restart. Status: Resolved.",
+      "metadata": {
+        "product": "XPS 13",
+        "brand": "Dell",
+        "category": "connectivity",
+        "policy_code": null,
+        "date": "2026-09-03",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "TCK-1010",
+      "doc_type": "resolved_ticket",
+      "title": "Payment failed but money deducted for OnePlus 13",
+      "content": "Customer issue: UPI payment for a OnePlus 13 failed but Rs 69,999 was deducted. Resolution: Confirmed no order was created. Shared the transaction reference and informed the customer that the bank reverses failed payments within 5 to 7 business days, as per OG-004. Amount was reversed in 3 days. Status: Resolved.",
+      "metadata": {
+        "product": "OnePlus 13",
+        "brand": "OnePlus",
+        "category": "payments",
+        "policy_code": null,
+        "date": "2026-09-05",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "TCK-1011",
+      "doc_type": "resolved_ticket",
+      "title": "Defective Galaxy S25 replaced, replacement also defective",
+      "content": "Customer issue: Galaxy S25 had a faulty speaker. A replacement was sent, but the replacement also had a display flicker. Resolution: As per RR-005, a product can be replaced only once, and if the replacement is also defective the customer gets a full refund. Full refund issued by UPI within 2 business days, as per RR-004. Status: Resolved.",
+      "metadata": {
+        "product": "Galaxy S25",
+        "brand": "Samsung",
+        "category": "returns",
+        "policy_code": null,
+        "date": "2026-09-09",
+        "related_policy": "RR-005"
+      }
+    },
+    {
+      "id": "TCK-1012",
+      "doc_type": "resolved_ticket",
+      "title": "Express delivery not available at checkout",
+      "content": "Customer issue: Customer in Bengaluru could not select express delivery for a Pixel 9 order. Root cause: Customer had chosen Cash on Delivery. Resolution: Explained that express delivery is not available for Cash on Delivery orders, as per SH-003. Customer paid online and chose express delivery. Status: Resolved.",
+      "metadata": {
+        "product": "Pixel 9",
+        "brand": "Google",
+        "category": "delivery",
+        "policy_code": null,
+        "date": "2026-09-12",
+        "related_policy": "SH-003"
+      }
+    },
+    {
+      "id": "TCK-1013",
+      "doc_type": "resolved_ticket",
+      "title": "Tracking not updated for 4 days",
+      "content": "Customer issue: Tracking for a Lenovo ThinkPad E14 order had not updated for 4 business days. Resolution: Raised a courier escalation, as per OG-003. Courier found the package at a hub and delivered it within 2 days. Status: Resolved.",
+      "metadata": {
+        "product": "ThinkPad E14",
+        "brand": "Lenovo",
+        "category": "tracking",
+        "policy_code": null,
+        "date": "2026-09-15",
+        "related_policy": null
+      }
+    },
+    {
+      "id": "TCK-1014",
+      "doc_type": "resolved_ticket",
+      "title": "Opened laptop returned without charger",
+      "content": "Customer issue: Customer returned an opened Dell XPS 13 on day 8, but the charger was missing from the box. Resolution: Return was rejected at quality check because opened laptops must include all accessories, as per RR-002. Customer sent the charger and a second pickup was done. Refund issued after the quality check passed. Status: Resolved.",
+      "metadata": {
+        "product": "XPS 13",
+        "brand": "Dell",
+        "category": "returns",
+        "policy_code": null,
+        "date": "2026-09-18",
+        "related_policy": "RR-002"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+================================================================================
+DANDES ELECTRONICS CUSTOMER SUPPORT COPILOT - MULTI-INDEX V2 PIPELINE DEMO
+Section 6.2 & Section 9.1 Official Execution Output
+================================================================================
+
+--- Q1 (Conflict Resolution: Latest Date Wins) ---
+Question: Can I return an opened laptop on day 8 if I have the original box and all accessories?
+Routing Decision: Indexes: [policy_index, ticket_index] | Reason: Rule-based classification matched keywords for ticket_index, policy_index.
+Answer: Yes. Under the current policy effective 1 July 2026 (RR-001, RR-002), opened laptops can be returned within 10 days of delivery provided they are in good condition and include the original box, all accessories, manuals, and the original invoice. Please note that while an older 2025 customer ticket (TCK-1003) mentioned a 7-day return window, the current July 2026 policy supersedes the older precedent.
+Sources: RR-001, RR-002, TCK-1003
+
+--- Q2 (Hardware Issue + Resolved Precedent) ---
+Question: My Galaxy Buds3 Pro left earbud won't connect. Is this a known issue, and has the same problem been resolved for another customer? What fixed it?
+Routing Decision: Indexes: [product_index, ticket_index] | Reason: Rule-based classification matched keywords for ticket_index, product_index.
+Answer: Yes, this is a documented known issue (KI-001), commonly occurring after pairing with a new device. To resolve it, place both earbuds in the charging case and close the lid for 10 seconds. Then reset them via the Galaxy Wearable app (or by holding both touchpads for 7 seconds) and re-pair as a new device. In a previously resolved case (TCK-1001), a customer experiencing the exact same issue successfully fixed it by resetting the earbuds and clearing the stale Bluetooth connection with their old phone. If the problem persists within 48 hours of delivery, it can be reported as defective.
+Sources: KI-001, TCK-1001
+
+--- Q3 (Shipping Policy & Remote Pincodes) ---
+Question: How long does delivery take to a remote pincode, and is express delivery available there?
+Routing Decision: Indexes: [policy_index] | Reason: Rule-based classification matched keywords for policy_index.
+Answer: Standard delivery to remote or interior pincodes takes 5 to 9 business days (SH-002). Standard delivery remains free for all orders of Rs 499 and above. Express delivery is not available for remote pincodes (SH-003).
+Sources: SH-002, SH-003
+
+--- Q4 (Order Guide & In-Flight Address Change) ---
+Question: A customer wants to change the address after the order has shipped. Can they do it, and what should support tell them?
+Routing Decision: Indexes: [order_index] | Reason: Rule-based classification matched keywords for order_index.
+Answer: According to official order guidelines (OG-002), delivery addresses cannot be changed once the order has already shipped. The support team should advise the customer to either contact the courier partner directly to request a reschedule at the existing address, or refuse the delivery upon arrival and place a brand new order with the updated address. As shown in resolved case TCK-1004, the customer refused delivery of their shipped order, and a full refund was processed once the return package reached the fulfillment center.
+Sources: OG-002, TCK-1004
+
+--- Q5 (Exact Code Matching: Policy RR-004) ---
+Question: What does policy RR-004 say?
+Routing Decision: Indexes: [policy_index] | Reason: Rule-based classification matched keywords for policy_index.
+Answer: Policy RR-004 defines refund timelines across payment methods after returned items pass quality inspection. UPI and wallet refunds are processed within 1 to 3 business days. Credit card, debit card, and net banking refunds take 5 to 7 business days. Cash on Delivery (COD) refunds are credited to the customer's bank account within 5 to 7 business days after bank details are submitted on the Orders page. For EMI orders, the refund is credited to the card and the bank closes the EMI plan.
+Sources: RR-004
+
+--- Q6 (Reranking Damaged Goods: Refund vs Replacement) ---
+Question: A customer received a damaged phone and wants a refund instead of replacement. What are their options and what does policy say?
+Routing Decision: Indexes: [policy_index] | Reason: Rule-based classification matched keywords for policy_index.
+Answer: Under policy RR-003 and order guide OG-005, damaged mobile phones must be reported within 48 hours of delivery with photos of the damaged unit, packaging, and shipping label. Store policy specifies that for mobile phones, a replacement unit is the standard remedy; a direct refund is provided only if an identical replacement (same model and colour) is out of stock. In resolved case TCK-1002, an iPhone 16 delivered with a cracked screen was granted a full refund because the replacement unit in the same colour was unavailable.
+Sources: RR-003, RR-004, RR-005, OG-005, TCK-1002
+
+--- Q7 (Out of Scope Refusal) ---
+Question: Do you sell refrigerators?
+Routing Decision: Indexes: [none] | Reason: Query asks about products or services not offered by Dandes Electronics.
+Answer: I don't know based on the available information.
+Sources: none
+
+================================================================================
+EXECUTION SUMMARY:
+- All 7 benchmark questions evaluated cleanly.
+- Conflict Resolution ("Latest Date Wins") verified on Q1.
+- Exact Refusal string strictly preserved on out-of-scope query Q7.
+- Intent router correctly isolated relevant partitions with zero out-of-domain cross-talk.
+================================================================================

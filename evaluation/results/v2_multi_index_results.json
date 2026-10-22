@@ -1,0 +1,675 @@
+[
+  {
+    "id": "Q01",
+    "question": "Can I return an opened laptop on day 8 if I have the original box and all accessories?",
+    "reference_answer": "Yes. Under the current policy effective 1 July 2026, opened laptops can be returned within 10 days of delivery if they are in good condition and include the original box, all accessories, manuals and the invoice. (An older 2025 ticket mentions a 7-day window, but the current policy replaces it.)",
+    "expected_sources": [
+      "RR-001",
+      "RR-002"
+    ],
+    "expected_indexes": [
+      "policy_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "TCK-1014",
+      "RR-002",
+      "TCK-1003",
+      "RR-001",
+      "RR-003"
+    ],
+    "sources": [
+      "TCK-1014",
+      "RR-002",
+      "TCK-1003",
+      "RR-001",
+      "RR-003"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy",
+        "historical_precedent"
+      ],
+      "indexes": [
+        "policy_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for ticket_index, policy_index."
+    }
+  },
+  {
+    "id": "Q02",
+    "question": "My Galaxy Buds3 Pro left earbud won't connect. Is this a known issue, and has the same problem been resolved for another customer? What fixed it?",
+    "reference_answer": "Yes, it's a known issue, usually after pairing with a new phone. Put both earbuds in the case and close the lid for 10 seconds, then reset them from the Galaxy Wearable app (or by holding both touchpads for 7 seconds) and pair again as a new device. A previous customer had the same problem after switching phones (TCK-1001): the earbuds were still paired with the old phone, and resetting and pairing again as a new device fixed it. If it still doesn't work, treat it as defective (within 48 hours of delivery) or raise a warranty claim.",
+    "expected_sources": [
+      "KI-001",
+      "TCK-1001"
+    ],
+    "expected_indexes": [
+      "product_index",
+      "ticket_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "TCK-1001",
+      "KI-001",
+      "FAQ-011",
+      "KI-002",
+      "TCK-1011"
+    ],
+    "sources": [
+      "TCK-1001",
+      "KI-001",
+      "FAQ-011",
+      "KI-002",
+      "TCK-1011"
+    ],
+    "routing_decision": {
+      "intents": [
+        "product_info",
+        "past_ticket"
+      ],
+      "indexes": [
+        "product_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for product_index, ticket_index."
+    }
+  },
+  {
+    "id": "Q03",
+    "question": "How long does delivery take to a remote pincode, and is it free?",
+    "reference_answer": "Delivery to remote pincodes takes 5 to 9 business days. The normal delivery charges apply, so orders of Rs 499 and above are still free. Express delivery isn't available for remote pincodes.",
+    "expected_sources": [
+      "SH-002"
+    ],
+    "expected_indexes": [
+      "policy_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "SH-002",
+      "SH-001",
+      "SH-004",
+      "RR-003",
+      "RR-004"
+    ],
+    "sources": [
+      "SH-002",
+      "SH-001",
+      "SH-004",
+      "RR-003",
+      "RR-004"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy"
+      ],
+      "indexes": [
+        "policy_index"
+      ],
+      "reason": "Rule-based classification matched keywords for policy_index."
+    }
+  },
+  {
+    "id": "Q04",
+    "question": "A customer wants to change the address after the order shipped. What is the official process, and do we have a resolved case like this?",
+    "reference_answer": "Official process (OG-002): the address can't be changed after shipping. The customer can ask the courier to reschedule delivery to the same address, or refuse the delivery and place a new order with the correct address. Resolved case (TCK-1004): a customer who had moved refused the delivery of a shipped Sony WH-1000XM5 order and placed a new order with the new address. The refund for the first order was issued after the package reached the warehouse.",
+    "expected_sources": [
+      "OG-002",
+      "TCK-1004"
+    ],
+    "expected_indexes": [
+      "order_index",
+      "ticket_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "TCK-1004",
+      "OG-002",
+      "OG-001",
+      "OG-003",
+      "TCK-1003"
+    ],
+    "sources": [
+      "TCK-1004",
+      "OG-002",
+      "OG-001",
+      "OG-003",
+      "TCK-1003"
+    ],
+    "routing_decision": {
+      "intents": [
+        "order_guide",
+        "past_ticket"
+      ],
+      "indexes": [
+        "order_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for ticket_index, order_index."
+    }
+  },
+  {
+    "id": "Q05",
+    "question": "What does policy RR-004 say?",
+    "reference_answer": "Refunds start after the returned product passes the quality check. UPI and wallet: 1 to 3 business days. Credit/debit card and net banking: 5 to 7 business days. Cash on Delivery: to the customer's bank account within 5 to 7 business days, after they add bank details on the Orders page. EMI: refunded to the card, and the bank closes the EMI plan.",
+    "expected_sources": [
+      "RR-004"
+    ],
+    "expected_indexes": [
+      "policy_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "RR-001",
+      "SH-005",
+      "SH-004",
+      "RR-003",
+      "SH-001"
+    ],
+    "sources": [
+      "RR-001",
+      "SH-005",
+      "SH-004",
+      "RR-003",
+      "SH-001"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy"
+      ],
+      "indexes": [
+        "policy_index"
+      ],
+      "reason": "Rule-based classification matched keywords for policy_index."
+    }
+  },
+  {
+    "id": "Q06",
+    "question": "A customer received a damaged phone and wants a refund instead of a replacement. What is the official process, and do we have a previous resolved case where a refund was issued?",
+    "reference_answer": "Official process: the customer must report it within 48 hours of delivery using Report a Problem, with photos of the product, box and shipping label, plus an unboxing video if available. A pickup is scheduled and the product goes through a quality check. For mobile phones, a replacement is given first; a refund is given only if a replacement unit (same model and colour) isn't available. Refund timelines depend on the payment method: UPI and wallet 1 to 3 business days, cards and net banking 5 to 7 business days. Resolved case (TCK-1002): an iPhone 16 arrived with a cracked screen; a replacement was not available in the same colour, so a full refund was issued to the credit card.",
+    "expected_sources": [
+      "RR-003",
+      "RR-004",
+      "RR-005",
+      "OG-005",
+      "TCK-1002"
+    ],
+    "expected_indexes": [
+      "policy_index",
+      "order_index",
+      "ticket_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "TCK-1002",
+      "RR-003",
+      "TCK-1011",
+      "RR-005",
+      "RR-001"
+    ],
+    "sources": [
+      "TCK-1002",
+      "RR-003",
+      "TCK-1011",
+      "RR-005",
+      "RR-001"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy",
+        "past_ticket"
+      ],
+      "indexes": [
+        "policy_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for ticket_index, policy_index."
+    }
+  },
+  {
+    "id": "Q07",
+    "question": "Do you sell refrigerators?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": [],
+    "generated_answer": "I don't know based on the available information.",
+    "retrieved_doc_ids": [],
+    "sources": [],
+    "routing_decision": {
+      "intents": [
+        "out_of_scope"
+      ],
+      "indexes": [
+        "none"
+      ],
+      "reason": "Query asks about products or services not offered by Dandes Electronics."
+    }
+  },
+  {
+    "id": "Q08",
+    "question": "Can I use Cash on Delivery for a Rs 60,000 laptop?",
+    "reference_answer": "No. Cash on Delivery is only available for orders up to Rs 50,000. Orders above Rs 50,000 must be paid online. Cash on Delivery is not available for remote pincodes or for express delivery.",
+    "expected_sources": [
+      "SH-004"
+    ],
+    "expected_indexes": [
+      "policy_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "SH-004",
+      "SH-003",
+      "SH-005",
+      "SH-001",
+      "RR-002"
+    ],
+    "sources": [
+      "SH-004",
+      "SH-003",
+      "SH-005",
+      "SH-001",
+      "RR-002"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy"
+      ],
+      "indexes": [
+        "policy_index"
+      ],
+      "reason": "Rule-based classification matched keywords for policy_index."
+    }
+  },
+  {
+    "id": "Q09",
+    "question": "Does the Apple iPhone 16 come with a charger in the box?",
+    "reference_answer": "No. The Apple iPhone 16 box contains the phone and a USB-C to USB-C cable. A power adapter is not included. Customers can buy the Anker 20W USB-C Charger or any USB-C Power Delivery charger of 20W or more for fast charging.",
+    "expected_sources": [
+      "FAQ-001"
+    ],
+    "expected_indexes": [
+      "product_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "FAQ-001",
+      "FAQ-012",
+      "KI-004",
+      "KI-003",
+      "KI-002"
+    ],
+    "sources": [
+      "FAQ-001",
+      "FAQ-012",
+      "KI-004",
+      "KI-003",
+      "KI-002"
+    ],
+    "routing_decision": {
+      "intents": [
+        "product_info"
+      ],
+      "indexes": [
+        "product_index"
+      ],
+      "reason": "Rule-based classification matched keywords for product_index."
+    }
+  },
+  {
+    "id": "Q10",
+    "question": "Does the MacBook Air M3 have a cooling fan, and is fan noise normal during video editing?",
+    "reference_answer": "No. The Apple MacBook Air M3 has a fanless design, so it runs silently. During long heavy tasks such as video export, it may slow down slightly to manage heat. This is normal behaviour and not a defect.",
+    "expected_sources": [
+      "FAQ-005"
+    ],
+    "expected_indexes": [
+      "product_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "FAQ-005",
+      "KI-004",
+      "FAQ-009",
+      "FAQ-007",
+      "FAQ-002"
+    ],
+    "sources": [
+      "FAQ-005",
+      "KI-004",
+      "FAQ-009",
+      "FAQ-007",
+      "FAQ-002"
+    ],
+    "routing_decision": {
+      "intents": [
+        "product_info"
+      ],
+      "indexes": [
+        "product_index"
+      ],
+      "reason": "Rule-based classification matched keywords for product_index."
+    }
+  },
+  {
+    "id": "Q11",
+    "question": "How do I cancel an order before and after it ships?",
+    "reference_answer": "An order can be cancelled from the Orders page any time before it is shipped, and prepaid orders are refunded as per policy RR-004. Once an order is shipped, it cannot be cancelled. The customer can refuse delivery instead, and the refund is processed as per policy SH-005.",
+    "expected_sources": [
+      "OG-001"
+    ],
+    "expected_indexes": [
+      "order_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "OG-001",
+      "OG-002",
+      "OG-003",
+      "OG-005",
+      "OG-006"
+    ],
+    "sources": [
+      "OG-001",
+      "OG-002",
+      "OG-003",
+      "OG-005",
+      "OG-006"
+    ],
+    "routing_decision": {
+      "intents": [
+        "order_guide"
+      ],
+      "indexes": [
+        "order_index"
+      ],
+      "reason": "Rule-based classification matched keywords for order_index."
+    }
+  },
+  {
+    "id": "Q12",
+    "question": "Where is express delivery available, what does it cost, and can I use Cash on Delivery?",
+    "reference_answer": "Express delivery is available in select metro cities: Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai and Pune. Orders placed before 2 PM are delivered the next day. Express delivery costs Rs 149 per order, even for orders above Rs 499. Express delivery is not available for Cash on Delivery orders.",
+    "expected_sources": [
+      "SH-003"
+    ],
+    "expected_indexes": [
+      "policy_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "SH-003",
+      "SH-004",
+      "SH-002",
+      "SH-001",
+      "SH-005"
+    ],
+    "sources": [
+      "SH-003",
+      "SH-004",
+      "SH-002",
+      "SH-001",
+      "SH-005"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy"
+      ],
+      "indexes": [
+        "policy_index"
+      ],
+      "reason": "Rule-based classification matched keywords for policy_index."
+    }
+  },
+  {
+    "id": "Q13",
+    "question": "A customer's MacBook Air M3 is showing Not Charging when plugged in. What is the usual root cause and fix based on past customer tickets?",
+    "reference_answer": "The usual root cause is using a low-wattage 20W phone charger (such as the Anker 20W charger). As per KI-004 and resolved case TCK-1008, the customer should use the original Apple charger supplied in the box or a USB-C Power Delivery charger of 30W or higher.",
+    "expected_sources": [
+      "KI-004",
+      "TCK-1008"
+    ],
+    "expected_indexes": [
+      "product_index",
+      "ticket_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "TCK-1008",
+      "KI-004",
+      "KI-002",
+      "TCK-1007",
+      "FAQ-005"
+    ],
+    "sources": [
+      "TCK-1008",
+      "KI-004",
+      "KI-002",
+      "TCK-1007",
+      "FAQ-005"
+    ],
+    "routing_decision": {
+      "intents": [
+        "product_info",
+        "past_ticket"
+      ],
+      "indexes": [
+        "product_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for product_index, ticket_index."
+    }
+  },
+  {
+    "id": "Q14",
+    "question": "What should the support team do if a customer's payment failed but the money was deducted?",
+    "reference_answer": "If payment fails but money is deducted, the bank usually reverses it within 5 to 7 business days, and no order is created. The support team should check the payment status and share the transaction reference with the customer if the reversal takes longer, as outlined in OG-004 and case TCK-1010.",
+    "expected_sources": [
+      "OG-004"
+    ],
+    "expected_indexes": [
+      "order_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "OG-004",
+      "OG-003",
+      "OG-002",
+      "OG-001",
+      "OG-005"
+    ],
+    "sources": [
+      "OG-004",
+      "OG-003",
+      "OG-002",
+      "OG-001",
+      "OG-005"
+    ],
+    "routing_decision": {
+      "intents": [
+        "order_guide"
+      ],
+      "indexes": [
+        "order_index"
+      ],
+      "reason": "Rule-based classification matched keywords for order_index."
+    }
+  },
+  {
+    "id": "Q15",
+    "question": "What is the official procedure when order tracking has not updated for 4 days, and do we have a resolved case for this?",
+    "reference_answer": "As per OG-003, tracking updates can take up to 24 hours to appear. If tracking has not updated for more than 3 business days, the support team should raise a courier escalation. In resolved case TCK-1013, an escalation was raised for a Lenovo ThinkPad E14 order, and the courier located the package at a hub and delivered it within 2 days.",
+    "expected_sources": [
+      "OG-003",
+      "TCK-1013"
+    ],
+    "expected_indexes": [
+      "order_index",
+      "ticket_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "TCK-1013",
+      "OG-003",
+      "OG-004",
+      "TCK-1005",
+      "TCK-1010"
+    ],
+    "sources": [
+      "TCK-1013",
+      "OG-003",
+      "OG-004",
+      "TCK-1005",
+      "TCK-1010"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy",
+        "order_guide",
+        "past_ticket"
+      ],
+      "indexes": [
+        "order_index",
+        "policy_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for ticket_index, order_index, policy_index."
+    }
+  },
+  {
+    "id": "Q16",
+    "question": "What is the fix for Dell XPS 13 Wi-Fi disconnecting after sleep, and how was this solved for past customers?",
+    "reference_answer": "As per KI-006 and resolved case TCK-1009, customers should install the latest Wi-Fi driver and BIOS update using Dell SupportAssist, then restart the laptop. If the issue continues, a Dell warranty claim can be raised.",
+    "expected_sources": [
+      "KI-006",
+      "TCK-1009"
+    ],
+    "expected_indexes": [
+      "product_index",
+      "ticket_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "KI-006",
+      "TCK-1009",
+      "TCK-1014",
+      "FAQ-006",
+      "KI-003"
+    ],
+    "sources": [
+      "KI-006",
+      "TCK-1009",
+      "TCK-1014",
+      "FAQ-006",
+      "KI-003"
+    ],
+    "routing_decision": {
+      "intents": [
+        "product_info",
+        "past_ticket"
+      ],
+      "indexes": [
+        "product_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for product_index, ticket_index."
+    }
+  },
+  {
+    "id": "Q17",
+    "question": "A customer returned a Cash on Delivery item but has not received their refund. Why does this happen and how is it resolved?",
+    "reference_answer": "As per policy RR-004 and resolved case TCK-1006, Cash on Delivery refunds are processed to the customer's bank account within 5 to 7 business days after the customer adds bank details on the Orders page. The delay usually happens because the customer has not yet added their bank details on the Orders page.",
+    "expected_sources": [
+      "RR-004",
+      "TCK-1006"
+    ],
+    "expected_indexes": [
+      "policy_index",
+      "ticket_index"
+    ],
+    "generated_answer": "Answer generated from retrieved context.",
+    "retrieved_doc_ids": [
+      "TCK-1006",
+      "SH-005",
+      "TCK-1014",
+      "TCK-1012",
+      "TCK-1002"
+    ],
+    "sources": [
+      "TCK-1006",
+      "SH-005",
+      "TCK-1014",
+      "TCK-1012",
+      "TCK-1002"
+    ],
+    "routing_decision": {
+      "intents": [
+        "store_policy",
+        "past_ticket"
+      ],
+      "indexes": [
+        "policy_index",
+        "ticket_index"
+      ],
+      "reason": "Rule-based classification matched keywords for ticket_index, policy_index."
+    }
+  },
+  {
+    "id": "Q18",
+    "question": "Can I book domestic flight tickets or hotel stays through Dandes Electronics?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": [],
+    "generated_answer": "I don't know based on the available information.",
+    "retrieved_doc_ids": [],
+    "sources": [],
+    "routing_decision": {
+      "intents": [
+        "out_of_scope"
+      ],
+      "indexes": [
+        "none"
+      ],
+      "reason": "Query asks about products or services not offered by Dandes Electronics."
+    }
+  },
+  {
+    "id": "Q19",
+    "question": "Do you offer doorstep repair services for microwave ovens and washing machines?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": [],
+    "generated_answer": "I don't know based on the available information.",
+    "retrieved_doc_ids": [],
+    "sources": [],
+    "routing_decision": {
+      "intents": [
+        "out_of_scope"
+      ],
+      "indexes": [
+        "none"
+      ],
+      "reason": "Query asks about products or services not offered by Dandes Electronics."
+    }
+  },
+  {
+    "id": "Q20",
+    "question": "Can I trade in a PlayStation 5 or Nintendo Switch console under the exchange programme?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": [],
+    "generated_answer": "I don't know based on the available information.",
+    "retrieved_doc_ids": [],
+    "sources": [],
+    "routing_decision": {
+      "intents": [
+        "out_of_scope"
+      ],
+      "indexes": [
+        "none"
+      ],
+      "reason": "Query asks about products or services not offered by Dandes Electronics."
+    }
+  }
+]
